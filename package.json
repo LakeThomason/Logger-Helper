@@ -1,0 +1,34 @@
+{
+  "name": "post_ltr_logger",
+  "version": "2.1.01",
+  "description": "Class library that implements the logger service",
+  "license": "MIT",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Commission-on-POST/logger_class_library"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "nodemailer": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^4.6.7",
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.12.0",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
+  }
+}

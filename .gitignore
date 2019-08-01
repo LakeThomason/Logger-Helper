@@ -1,0 +1,9 @@
+node_modules/
+*.env*
+*.log
+.vscode/*
+log/
+dist/
+uploads/
+.svn
+deploy/
