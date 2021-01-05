@@ -20,7 +20,7 @@
     "url": "https://github.com/Commission-on-POST/logger_class_library"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "chalk": "^2.4.2",
     "nodemailer": "^6.1.0"
   },
